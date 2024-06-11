@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Blog</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+
+
+<body>
+    <div class="light mode">
+        <div>
+            <header id="theme-switcher">
+                <h1>🌟</h1>
+            </header>
+        </div>
+        <div class="wrapper">
+            <div class="container">
+                <div class="background">
+                    <h1>My First Blog</h1>
+                </div>
+            </div>
+            <div class="container">
+                <h2>What's on your mind?</h2>
+            <form method="SAVE">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+                <div class="input-group">
+                    <label for="title">Title</label>
+            <input type="text" name="title" id="title">
+            </div>
+            <div class="input-group">
+                <label for="content">Content</label>
+                <input type="text" name="content" id="content">
+            </div>
+                <div id="msg"></div>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src= "script.js"></script>
+</body>
+</html>
